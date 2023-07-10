@@ -2,13 +2,6 @@ from evds import evdsAPI
 import tkinter as tk
 import tkcalendar
 from pandas import ExcelWriter
-
-
-
-
-
-    
-    
     
 root = tk.Tk()
 root.title('Kur Sorgula')
@@ -25,7 +18,6 @@ label2 = tk.Label(root, text="Başlangıç Tarihi")
 label2.grid(row=1,column=0, padx=15)
 date1 = tkcalendar.DateEntry(root, date_pattern="dd-MM-yyyy", locale="tr_TR")
 date1.grid(row = 1,column = 1)
-
 
 label3 = tk.Label(root, text="Bitiş Tarihi")
 label3.grid(row = 2,column = 0, pady=10, padx=15)
